@@ -2,7 +2,10 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+    paths:
+      - lambda_images/**
 
 jobs:
   build:
