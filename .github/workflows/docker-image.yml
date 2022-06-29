@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - lambda_images/**
+      - lambda_image/**
 
 jobs:
   build:
